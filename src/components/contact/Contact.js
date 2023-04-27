@@ -11,7 +11,7 @@ export const Contact = ({ contact }) => {
   return (
     <div className={css.container}>
       <p>
-        {contact.name}: {contact.phone} id: {contact.id}
+        {contact.name}: {contact.phone}
       </p>
       <button className={css.button} type="button" onClick={handleDelete}>
         Delete
